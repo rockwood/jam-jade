@@ -1,6 +1,6 @@
 define(function(require) {
   
-  var Jade = require('jade/jade-source');
+  var Jade = require('jade/source');
 
   return {
     load: function(name, require, callback, config) {
