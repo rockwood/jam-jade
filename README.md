@@ -2,7 +2,7 @@
 
 A [Jade](http://jade-lang.com/) loader plugin for [RequireJS](http://requirejs.org).
 
-## Usage
+### Usage
 
 Reference Jade files via the jade! plugin name:
 
@@ -12,7 +12,7 @@ Reference Jade files via the jade! plugin name:
 
 They will be returned as a Jade template function that accepts locals as the first arg.
 
-## Jade Compiler
+### Jade Compiler
 
 Need access to the raw Jade compiler?
     
