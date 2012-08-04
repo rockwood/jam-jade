@@ -28,10 +28,9 @@
   
   "github": "http://github.com/rockwood/jam-jade",
   
-  "main": "jade.js",
+  "main": "index.js",
 
   "dependencies": {
-       "jade": ">= 0.27.0",
-       "text": ">= 2.0.0-jam.1"
-    }
+    "text": ">= 2.0.0-jam.1"
+  }
 }
