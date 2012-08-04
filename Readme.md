@@ -12,4 +12,12 @@ Reference Jade files via the jade! plugin name:
 
 They will be returned as a Jade template function that accepts locals as the first arg.
 
+## Jade Compiler
+
+Need access to the raw Jade compiler?
+    
+    require(['jade/source'], function (jade) {
+      jade.compile(something)
+    });
+
 The Jade parts are governed by [the Jade license](https://github.com/visionmedia/jade/blob/master/LICENSE).
